@@ -59,4 +59,7 @@ body {
     background-image: url(images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
