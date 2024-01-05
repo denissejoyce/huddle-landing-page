@@ -52,14 +52,49 @@ table {
 :root {
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%);
+	--white: hsl(0, 0%, 100%);
 }
 
 body {
     background-color: var(--violet);
     background-image: url(images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+	color: var(--white);
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+}
+
+.btn-register {
+	background-color: var(--white);
+	color: var(--violet);
+}
+
+.btn-register:hover {
+	background-color: var(--soft-magenta);
+	color: var(--white);
+}
+
+.text-heading {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.socials-i {
+	border: 1px solid var(--white);
+	border-radius: 55%;
+	padding: .5em;
+}
+
+.socials-i:hover {
+	color: var(--soft-magenta);
+	border-color: var(--soft-magenta);
+	cursor: pointer;
+}
+
+@media screen and (min-width: 375px) {
+	body {
+		background-image: url(images/bg-mobile.svg);
+	}
 }
