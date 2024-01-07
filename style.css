@@ -82,9 +82,10 @@ body {
 }
 
 .socials-i {
+	width: 3em;
+	height: 3em;
 	border: 1px solid var(--white);
-	border-radius: 55%;
-	padding: .5em;
+	border-radius: 50%;
 }
 
 .socials-i:hover {
