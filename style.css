@@ -64,6 +64,8 @@ body {
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+
+	padding: 2rem;
 }
 
 .btn-register {
@@ -84,7 +86,7 @@ body {
 .socials-i {
 	width: 3em;
 	height: 3em;
-	border: 1px solid var(--white);
+	border: 1.5px solid var(--white);
 	border-radius: 50%;
 }
 
@@ -94,8 +96,8 @@ body {
 	cursor: pointer;
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
 	body {
 		background-image: url(images/bg-mobile.svg);
 	}
-}
+} */
