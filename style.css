@@ -70,12 +70,19 @@ body {
 
 .btn-register {
 	background-color: var(--white);
+	border-radius: 60px;
 	color: var(--violet);
+	width: 200px;
+	height: 60px;
 }
 
 .btn-register:hover {
 	background-color: var(--soft-magenta);
 	color: var(--white);
+}
+
+.illus {
+	width: 800px;
 }
 
 .text-heading {
