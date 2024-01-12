@@ -103,6 +103,11 @@ body {
 	cursor: pointer;
 }
 
+.text-heading {
+	font-size: 2.7rem;
+	width: 31.25rem;
+}
+
 /* @media screen and (min-width: 375px) {
 	body {
 		background-image: url(images/bg-mobile.svg);
