@@ -88,6 +88,13 @@ body {
 .text-heading {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
+	font-size: 2.7rem;
+	width: 31.25rem;
+}
+
+section > p {
+	font-size: 1.2rem;
+	width: 34rem;
 }
 
 .socials-i {
@@ -101,11 +108,6 @@ body {
 	color: var(--soft-magenta);
 	border-color: var(--soft-magenta);
 	cursor: pointer;
-}
-
-.text-heading {
-	font-size: 2.7rem;
-	width: 31.25rem;
 }
 
 /* @media screen and (min-width: 375px) {
