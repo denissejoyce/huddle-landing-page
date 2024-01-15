@@ -106,12 +106,14 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	font-size: 2.7rem;
-	width: 31.25rem;
+	width: 100%;
+	max-width: 31.25rem;
 }
 
-section > p {
+.text-p {
 	font-size: 1.2rem;
-	width: 34rem;
+	width: 100%;
+	max-width: 34rem;
 }
 
 .socials-i {
