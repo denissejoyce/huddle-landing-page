@@ -95,11 +95,12 @@ body {
 	background-color: var(--soft-magenta);
 	color: var(--white);
 	width: 210px;
-	padding: 15px 0;
+	padding: .9rem 0;
 }
 
 .illus {
-	width: 50rem;
+	width: 90%;
+	/* min-width: 30rem; */
 }
 
 .text-heading {
