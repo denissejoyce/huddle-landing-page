@@ -70,6 +70,18 @@ body {
 	padding: 2rem 4rem;
 }
 
+.sr-only {
+    clip-path: inset(50%); 
+    border: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .btn-register {
 	background-color: var(--white);
 	border-radius: 60px;
@@ -87,7 +99,7 @@ body {
 }
 
 .illus {
-	width: 800px;
+	width: 50rem;
 }
 
 .text-heading {
