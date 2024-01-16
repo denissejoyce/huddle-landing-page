@@ -101,24 +101,12 @@ body {
 	padding: .9rem 0;
 }
 
-.illus {
-	width: 90%;
-}
-
 .huddles-logo {
 	width: 80%;
 }
 
-.text-heading {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	width: 100%;
-	max-width: 31.25rem;
-}
-
-.text-p {
-	width: 100%;
-	max-width: 36rem;
+.illus {
+	width: 90%;
 }
 
 .socials-i {
@@ -134,6 +122,18 @@ body {
 	cursor: pointer;
 	width: 3.5em;
 	height: 3.5em;
+}
+
+.text-heading {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	width: 100%;
+	max-width: 31.25rem;
+}
+
+.text-p {
+	width: 100%;
+	max-width: 36rem;
 }
 
 @media screen and (max-width: 1360px) {
@@ -167,6 +167,14 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+	body {
+		padding: 1rem 1rem;
+	}
+
+	.huddles-logo {
+		width: 50%;
+	}
+	
 	.socials-i {
 		width: 2.5em;
 		height: 2.5em;
