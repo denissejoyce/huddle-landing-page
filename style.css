@@ -55,6 +55,18 @@ table {
 	--white: hsl(0, 0%, 100%);
 }
 
+.sr-only {
+    clip-path: inset(50%); 
+    border: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 body {
     background-color: var(--violet);
     background-image: url(images/bg-desktop.svg);
@@ -70,16 +82,8 @@ body {
 	padding: 2rem 4rem;
 }
 
-.sr-only {
-    clip-path: inset(50%); 
-    border: 0;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    position: absolute;
-    margin: -1px;
-    white-space: nowrap;
-    overflow: hidden;
+.btn-register, .illus, .huddles-logo, .socials-i, .text-heading, .text-p {
+	transition: all ease 1s;
 }
 
 .btn-register {
@@ -87,8 +91,7 @@ body {
 	border-radius: 60px;
 	color: var(--violet);
 	width: 200px;
-	padding: 13px 0;
-	transition: all ease 1s;
+	padding: .8rem 0;
 }
 
 .btn-register:hover {
@@ -123,7 +126,6 @@ body {
 	height: 3em;
 	border: 1.5px solid var(--white);
 	border-radius: 50%;
-	transition: all ease 1s;
 }
 
 .socials-i:hover {
@@ -147,10 +149,6 @@ body {
 }
 
 @media screen and (max-width: 990px) {
-	.illus, .huddles-logo, .text-heading, .text-p {
-		transition: all ease 1s;
-	}
-
 	.illus {
 		width: 100%;
 	}
@@ -165,6 +163,18 @@ body {
 
 	.text-p {
 		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.socials-i {
+		width: 2.5em;
+		height: 2.5em;
+	}
+
+	.socials-i:hover {
+		width: 3em;
+		height: 3em;
 	}
 }
 
